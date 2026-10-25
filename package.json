@@ -1,0 +1,19 @@
+{
+  "name": "discord-clock-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that stays in a voice channel and shows the current time in the channel name",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@noble/ciphers": "^2.4.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "pm2": "^5.4.2"
+  }
+}
